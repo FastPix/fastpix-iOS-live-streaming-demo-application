@@ -1,0 +1,28 @@
+PODS:
+  - HaishinKit (1.7.1):
+    - Logboard (~> 2.4.1)
+  - Hue (5.0.0)
+  - Loaf (0.7.0)
+  - Logboard (2.4.1)
+
+DEPENDENCIES:
+  - HaishinKit (~> 1.7.1)
+  - Hue (~> 5.0.0)
+  - Loaf
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HaishinKit
+    - Hue
+    - Loaf
+    - Logboard
+
+SPEC CHECKSUMS:
+  HaishinKit: a3b98b5c169b6d2dd9d363a7910828ef9b3b2022
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  Logboard: b78984e3f9fa5075d5bfd9308d51b453992aad0e
+
+PODFILE CHECKSUM: 8c419f86260eb503b6c90b65e8ec7eca61a9c864
+
+COCOAPODS: 1.15.2
