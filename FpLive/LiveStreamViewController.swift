@@ -1237,7 +1237,7 @@ class LiveStreamViewController: UIViewController {
     }
     
     private func connectRTMP() {
-        rtmpConnection.connect("rtmps://live.fastpix.app:443/live")
+        rtmpConnection.connect("rtmps://live.fastpix.io:443/live")
     }
     
     @objc func handleTap(_ sender: UITapGestureRecognizer) {
