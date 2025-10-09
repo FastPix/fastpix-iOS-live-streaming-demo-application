@@ -45,9 +45,9 @@ To use this application, you'll need:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/example-fastpix-live-ios.git
+git clone https://github.com/FastPix/fastpix-iOS-live-streaming-demo-application.git
 
-cd fastpix-live-ios
+cd FpLive
 ```
 
 2. **Install dependencies**
@@ -260,4 +260,5 @@ enum StreamState {
 3. **Camera Switching Crashes** 
    - Fixed in latest version with crash protection
    - Avoid rapid camera switching during connection
+
 
