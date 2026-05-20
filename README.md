@@ -3,6 +3,21 @@
 
 A robust iOS live streaming application built with [HaishinKit RTMP library](https://github.com/shogo4405/HaishinKit.swift) that provides professional-grade broadcasting capabilities with advanced features like crash protection, network resilience, and modern iOS 18-style notifications.
 
+## Domain migration: fastpix.io → fastpix.com
+All FastPix-hosted endpoints are migrating to the .com TLD. Existing .io hosts continue to serve traffic temporarily for backward compatibility, but they are planned for future deprecation.
+
+### RTMP endpoint migration
+
+RTMP streaming endpoint updated from:
+
+`rtmps://live.fastpix.io:443/live`
+
+To:
+
+`rtmps://live.fastpix.com:443/live`
+
+> **Note:** The existing .io domain will continue functioning temporarily, but migration to the .com endpoint is strongly recommended to avoid future disruptions
+
 ## Demo App
 
 ![FastPix Live Demo](FpLive/Assets.xcassets/demo.gif)
@@ -37,7 +52,7 @@ A robust iOS live streaming application built with [HaishinKit RTMP library](htt
 ## Prerequisites
 
 To use this application, you'll need:
-1. **FastPix Account** - Sign up at [FastPix Dashboard](https://dashboard.fastpix.io/signup)
+1. **FastPix Account** - Sign up at [FastPix Dashboard](https://dashboard.fastpix.com/signup)
 2. **RTMP Stream Key** - Create a live stream and obtain your unique stream key
 3. **iOS Device** - iOS 13.0+ required (streaming not supported on simulator)
 
